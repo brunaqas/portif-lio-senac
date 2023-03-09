@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1120&q=80');
+    background-size: cover;
+    height: 100vh;
+    padding-top: 12.5rem;
+    padding-left: 7rem;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 900;
+    color: #FFF;
+    font-family: 'Poppins';
+}
+
+span {
+    font-size: 35px;
+    color: #FFF;
+    font-family: 'Montserrat';
+}
+
+a {
+    color: #FFF;
+    font-size: 1.9rem;
+    text-decoration: none;
+    background: linear-gradient(90deg, #6a3093, #a044ff);
+    padding: 1rem 2rem;
+    border-radius: 7px;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+/* flex box */
+section {
+    display: flex;
+    gap: 2rem;
+    padding: 7rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
